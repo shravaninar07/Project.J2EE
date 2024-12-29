@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*
+{
+	margin:0;
+	padding:0;
+	
+}
+
+#menu ul{
+	list-style:none;
+	z-index:1500;
+}
+#menu ul li{
+	
+	background-color: #000000;
+	border:1px solid white;
+	width:250px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	float:left;
+	position:relative;
+}
+
+  #menu ul li a{
+  text-decoration:none;
+  color:white;
+  display:block;
+  }
+  
+  #menu ul li a:hover{
+  background-color:yellow;
+  }
+  
+  #menu ul ul{
+  position:absolute;
+  display:none;
+  }
+  
+  #menu ul li:hover> ul {
+  display:block;
+  }
+
